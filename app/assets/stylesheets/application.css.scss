@@ -52,6 +52,21 @@ h1, h2, h3 {
     }
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+} 
+
+.navbar-default .navbar-toggle {
+    background-color: #7F7FD5;
+    border-color: black;
+    border: 2px solid black;
+    &:hover, &:focus {
+        background-color: white;
+        opacity: 0.75;
+    }
+}
+
+
 // Homepage Styles
 .homeCallout {
     color: white;
