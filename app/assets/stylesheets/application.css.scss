@@ -48,7 +48,8 @@ h1, h2, h3 {
 .navbar-default .navbar-nav > li > a {
     color: black;
     &:hover {
-        color: white;
+        color: black;
+        opacity: 0.75;
     }
 }
 
